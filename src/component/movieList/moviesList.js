@@ -4,7 +4,7 @@ import Cards from "../cardcomp/cards";
 import "./movieList.css"
 import { useParams } from 'react-router-dom';
 
-const moviesList=()=> {
+const MoviesList=()=> {
   const [movieList, setMovieList] = useState([]);
   const {type} = useParams();
   useEffect(() => {
@@ -34,4 +34,4 @@ const getData=()=>{
   )
 }
 
-export default moviesList;
+export default MoviesList;
